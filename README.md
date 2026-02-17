@@ -50,4 +50,3 @@ This early version was simple and fully client-side, designed for safe crystal p
 - [Modrinth Page](https://modrinth.com/mod/safecrystal)  
 
 ---
-
