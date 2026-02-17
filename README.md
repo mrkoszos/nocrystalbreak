@@ -1,4 +1,4 @@
-# Safe Crystals (NoCrystalBreak)
+# Safe Crystals (NoCrystalBreak) - v1.1.3
 
 ![Mod Icon](src/client/resources/assets/nocrystalbreak/icon.png)
 
