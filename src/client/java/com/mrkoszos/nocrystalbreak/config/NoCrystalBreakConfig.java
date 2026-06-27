@@ -4,10 +4,9 @@ import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
 
-@Config(name = "assets/nocrystalbreak")
+@Config(name = "nocrystalbreak")
 public class NoCrystalBreakConfig implements ConfigData {
 
-    @ConfigEntry.Gui.Tooltip
-    public boolean enabled = true; // true = mod active, false = mod deactivated
-
+	@ConfigEntry.Gui.Tooltip
+	public boolean enabled = true;
 }
