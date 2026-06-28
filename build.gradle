@@ -80,12 +80,18 @@ java {
 
 jar {
 	archiveBaseName.set(project.archives_base_name)
-	archiveVersion.set("${project.mod_version}+mc${mcVersion}")
-	archiveClassifier.set("")
+	archiveVersion.set("${project.mod_version}-mc${mcVersion}")
+	archiveClassifier.set("dev")
 
 	from("LICENSE") {
 		rename { "${it}_${project.archives_base_name}" }
 	}
+}
+
+tasks.named("remapJar") {
+	archiveBaseName.set(project.archives_base_name)
+	archiveVersion.set("${project.mod_version}-mc${mcVersion}")
+	archiveClassifier.set("")
 }
 
 publishing {
